@@ -1,0 +1,979 @@
+/*
+Theme Name: YOUKAICHI
+Description: 
+Author: 
+Author URI: 
+License: 
+License URI: 
+Version: 1.0
+*/
+/* reset
+------------------------------------------------------------ */
+/* line 16, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+body {
+  line-height: 1; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+:focus {
+  outline: 0; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+ins {
+  text-decoration: none; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+del {
+  text-decoration: line-through; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 19, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+img {
+  border: 0; }
+
+/* line 21, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.clearfix {
+  width: 100%; }
+
+/* line 21, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/* common
+------------------------------------------------------------ */
+/* line 26, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+body {
+  line-height: 1.6;
+  font-size: 14px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", arial, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+  color: #333333;
+  -webkit-text-size-adjust: none;
+  background-color: #F6F7F4; }
+
+/* line 35, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+a {
+  color: #333;
+  text-decoration: none; }
+
+/* line 40, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+a img:hover {
+  opacity: 0.6; }
+
+/* line 44, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.full_img {
+  width: 100%;
+  height: auto; }
+
+/* line 45, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.max_img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 46, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.taC {
+  text-align: center; }
+
+/* crayon */
+/* line 50, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.crayon-syntax {
+  box-sizing: border-box;
+  padding: 15px !important;
+  background-color: #fafafa; }
+
+/* parts
+------------------------------------------------------------ */
+/* line 59, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.btn-attend-new {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #FFFFFF;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 50%;
+  background: #ff3019;
+  background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
+  animation: btn-attend-new 2s infinite;
+  -webkit-animation: btn-attend-new 2s infinite; }
+
+@-webkit-keyframes btn-attend-new {
+  /* line 79, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  0% {
+    transform: scale(1); }
+
+  /* line 80, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  30% {
+    transform: scale(1.2) rotate(-25deg);
+    box-shadow: 2px 2px 4px #333333; }
+
+  /* line 81, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  40% {
+    transform: scale(1); }
+
+  /* line 82, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  50% {
+    transform: scale(1.2) rotate(-25deg);
+    box-shadow: 2px 2px 4px #333333; }
+
+  /* line 83, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  70% {
+    transform: scale(1); }
+
+  /* line 84, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  100% {
+    transform: scale(1); } }
+
+@keyframes btn-attend-new {
+  /* line 87, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  0% {
+    transform: scale(1); }
+
+  /* line 88, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  30% {
+    transform: scale(1.2) rotate(-25deg); }
+
+  /* line 89, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  40% {
+    transform: scale(1); }
+
+  /* line 90, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  50% {
+    transform: scale(1.2) rotate(-25deg); }
+
+  /* line 91, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  70% {
+    transform: scale(1); }
+
+  /* line 92, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  100% {
+    transform: scale(1); } }
+
+/* line 95, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.pager {
+  text-align: center;
+  margin: 20px 0 10px; }
+
+/* line 100, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+a.page-numbers, .pager .current {
+  display: inline-block;
+  background: #eee;
+  padding: 8px 14px;
+  margin: 0 2px 15px;
+  text-align: center;
+  font-size: 14px; }
+
+/* line 109, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.pager .current {
+  background: #333;
+  color: white; }
+
+/* line 114, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.pager a:hover {
+  background-color: #333;
+  color: #FFF; }
+
+/* video */
+/* line 121, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.iframeWrap {
+  position: relative;
+  margin: 20px 0; }
+  /* line 124, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .iframeWrap video {
+    width: 100%;
+    height: auto; }
+  /* line 128, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .iframeWrap iframe {
+    width: 100% !important; }
+
+/* text */
+/* line 135, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+strong.yellow {
+  background: linear-gradient(transparent 30%, #FDEE00 30%); }
+
+/* other */
+/* line 140, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.amazonjs_item {
+  font-size: 12px !important;
+  border: 1px solid #fff !important; }
+
+/* header
+------------------------------------------------------------ */
+/* line 148, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+#header {
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center; }
+  /* line 154, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  #header #logo {
+    width: 40%;
+    margin: 0 auto; }
+    /* line 157, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    #header #logo span {
+      position: absolute;
+      width: 0;
+      height: 0;
+      overflow: hidden; }
+
+/* line 166, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+#gnav {
+  background-color: #050505;
+  margin-bottom: 25px;
+  padding: 10px 0; }
+  /* line 170, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  #gnav ul {
+    letter-spacing: -0.4em;
+    text-align: center; }
+    /* line 173, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    #gnav ul li {
+      display: inline-block;
+      font-size: 0.8rem;
+      letter-spacing: normal; }
+      /* line 177, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      #gnav ul li a {
+        padding: 6px 6px;
+        color: #fff; }
+        /* line 180, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+        #gnav ul li a:hover {
+          text-decoration: underline; }
+
+@media screen and (min-width: 768px) {
+  /* line 190, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  #gnav ul {
+    width: 980px;
+    margin: 0 auto; }
+    /* line 193, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    #gnav ul li {
+      width: auto;
+      padding: 0 10px; }
+ }
+
+/* contents
+------------------------------------------------------------ */
+/* top */
+/* line 206, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+#contents {
+  width: 90%;
+  margin: 0 auto; }
+
+@media screen and (min-width: 768px) {
+  /* line 212, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  #contents {
+    width: 960px;
+    max-width: 960px;
+    margin: 30px auto;
+    box-sizing: border-box; }
+    /* line 217, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    #contents #primary_area {
+      box-sizing: border-box;
+      width: 740px;
+      float: left; }
+      /* line 222, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      #contents #primary_area .main_col {
+        box-sizing: border-box;
+        width: 600px;
+        float: right; }
+      /* line 227, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      #contents #primary_area .side_col {
+        box-sizing: border-box;
+        width: 120px;
+        float: left; }
+    /* line 233, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    #contents #secondary_area {
+      float: right;
+      width: 200px;
+      box-sizing: border-box; }
+ }
+
+/* line 246, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.pickup_area {
+  box-sizing: border-box;
+  position: relative;
+  margin: 20px auto;
+  letter-spacing: -0.4em; }
+  /* line 252, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .pickup_area .main_title {
+    margin: 5px auto 15px;
+    letter-spacing: normal;
+    font-size: 0.7rem; }
+    /* line 256, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .pickup_area .main_title span {
+      padding: 6px 10px;
+      background-color: #FEFD50;
+      color: #FFF;
+      font-weight: normal; }
+  /* line 264, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .pickup_area .article {
+    display: inline-block;
+    position: relative;
+    letter-spacing: normal;
+    vertical-align: top;
+    width: 31.5%;
+    height: 160px;
+    margin-left: 2.9%;
+    font-size: 0.7rem; }
+    /* line 273, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .pickup_area .article:nth-child(2) {
+      margin-left: 0; }
+    /* line 274, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .pickup_area .article:nth-child(5) {
+      margin-left: 0; }
+
+@media screen and (min-width: 768px) {
+  /* line 283, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .pickup_area {
+    width: auto; }
+    /* line 285, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .pickup_area .main_title {
+      font-size: 0.7rem; }
+    /* line 288, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .pickup_area .article {
+      width: 16%;
+      height: 190px;
+      margin-left: 7px;
+      font-size: 0.8rem; }
+      /* line 292, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .pickup_area .article:nth-child(5) {
+        margin-left: 8px; }
+ }
+
+/* line 299, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.latest_area {
+  margin: 0 auto 20px; }
+  /* line 303, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .latest_area .tab li {
+    display: inline-block;
+    width: 40%;
+    margin-left: 5.5%; }
+    /* line 307, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .latest_area .tab li a {
+      display: block;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888;
+      padding: 6px;
+      border-top: 1px solid #eee;
+      border-right: 1px solid #eee;
+      border-left: 1px solid #eee;
+      border-radius: 4px 4px 0 0;
+      background-color: #eee;
+      position: relative;
+      bottom: -1px; }
+      /* line 322, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .latest_area .tab li a.selected {
+        background-color: #fff;
+        color: #000; }
+  /* line 329, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .latest_area .panel {
+    padding: 15px;
+    border: 1px solid #EEEEEE;
+    background-color: #FFFFFF;
+    font-size: 0.8rem; }
+    /* line 334, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .latest_area .panel .article {
+      margin-bottom: 6px;
+      padding-bottom: 6px;
+      border-bottom: 1px dashed #eee; }
+      /* line 338, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .latest_area .panel .article .views {
+        position: relative;
+        top: -2px; }
+      /* line 339, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .latest_area .panel .article .date {
+        margin-bottom: 2px; }
+
+/* line 346, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.bnr_type1_area {
+  width: 90%;
+  margin: 0 auto 15px; }
+  /* line 349, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .bnr_type1_area img {
+    width: 100%;
+    height: auto; }
+
+/* line 355, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.article_list_area {
+  border: 1px solid #EEEEEE;
+  background-color: #FFF;
+  margin-bottom: 20px; }
+  /* line 361, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_list_area .main_title {
+    border-bottom: 1px solid #eee;
+    padding: 10px 25px;
+    margin-bottom: 14px;
+    text-align: center; }
+  /* line 368, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_list_area .article {
+    box-sizing: border-box;
+    padding: 5px 15px;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 10px; }
+    /* line 373, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_list_area .article .photo_area {
+      position: relative;
+      width: 35%;
+      float: left; }
+      /* line 377, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .article_list_area .article .photo_area img {
+        width: 100%;
+        height: auto; }
+      /* line 381, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .article_list_area .article .photo_area .label {
+        display: inline-block;
+        position: absolute;
+        left: 6px;
+        bottom: 12px;
+        color: #fff;
+        font-size: 0.7rem;
+        padding: 4px 8px;
+        border: 1px solid #fff; }
+    /* line 392, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_list_area .article .detail_area {
+      width: 62%;
+      float: right; }
+      /* line 395, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .article_list_area .article .detail_area .article_title {
+        line-height: 1.4;
+        margin-bottom: 5px; }
+        @media screen and (min-width: 768px) {
+          .article_list_area .article .detail_area .article_title {
+            font-size: 1.1rem; } }
+      /* line 402, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .article_list_area .article .detail_area .time {
+        font-size: 0.7rem;
+        color: #888888;
+        margin-bottom: 10px; }
+      /* line 407, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .article_list_area .article .detail_area p {
+        font-size: 0.6rem; }
+
+@media screen and (min-width: 768px) {
+  /* line 418, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_list_area .article {
+    padding: 15px 25px; }
+    /* line 421, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_list_area .article .detail_area p {
+      font-size: 0.8rem; }
+ }
+
+/* line 429, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+#breadcrumb {
+  margin: 15px auto;
+  overflow: hidden; }
+  /* line 433, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  #breadcrumb ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.9rem; }
+
+/* single.php
+------------------------------------------------------------ */
+/* line 445, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.article_area {
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+  /* line 452, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_area .article_header {
+    position: relative; }
+    /* line 454, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .article_header .article_title {
+      position: absolute;
+      bottom: 40px;
+      max-width: 450px;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.3);
+      color: #fff;
+      font-weight: normal;
+      padding: 10px 20px;
+      font-size: 1.4rem; }
+    /* line 465, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .article_header .article_meta {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: #fff;
+      font-size: 0.8rem;
+      border: 1px solid #fff;
+      padding: 4px 12px; }
+  /* line 475, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_area .article_contents {
+    width: 90%;
+    margin: 0 auto; }
+    /* line 478, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .article_contents h2 {
+      font-size: 1.4rem;
+      margin: 30px 0 10px; }
+    /* line 482, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .article_contents h3 {
+      font-size: 1.1rem; }
+    /* line 486, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .article_contents p {
+      margin: 20px 0; }
+    /* line 489, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .article_contents img {
+      max-width: 100%;
+      height: auto; }
+    /* line 493, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .article_contents a {
+      color: #0f80b5;
+      text-decoration: underline; }
+  /* line 498, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_area .article_footer {
+    width: 90%;
+    margin: 20px auto; }
+  /* line 503, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_area #comments {
+    width: 90%;
+    margin: 15px auto 0;
+    box-sizing: border-box;
+    padding: 0 15px;
+    background-color: #FFFDEF;
+    border: 1px solid #f6f3e4; }
+  /* line 511, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_area .comments_title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  /* line 517, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_area .comments_area {
+    box-sizing: border-box;
+    margin: 0 auto 10px;
+    padding-bottom: 10px; }
+    /* line 521, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .comments_area .comments_avatar {
+      width: 10%;
+      display: inline-block;
+      margin-right: 3%;
+      vertical-align: top; }
+    /* line 527, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .comments_area .comments_text {
+      width: 85%;
+      box-sizing: border-box;
+      padding: 8px;
+      display: inline-block;
+      vertical-align: top;
+      background-color: #f6f3e4;
+      font-size: 0.8rem; }
+  /* line 537, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .article_area .comment_area {
+    box-sizing: border-box;
+    margin: 20px auto; }
+    /* line 540, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .comment_area .comment-title {
+      font-size: 0.8rem;
+      margin-bottom: 5px; }
+      /* line 543, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .article_area .comment_area .comment-title span {
+        padding-left: 8px;
+        font-size: 0.7rem; }
+    /* line 548, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .comment_area .text-form {
+      border: 1px solid #eee; }
+    /* line 551, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .article_area .comment_area textarea {
+      width: 100%;
+      height: 50px;
+      border: 1px solid #eee; }
+
+/* line 559, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.entry_bottom_ads {
+  margin-bottom: 20px; }
+  /* line 562, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .entry_bottom_ads ul li {
+    margin-bottom: 10px;
+    text-align: center; }
+
+@media screen and (min-width: 768px) {
+  /* line 572, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .entry_bottom_ads ul li {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px; }
+ }
+
+/* line 583, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.post_link ul {
+  margin-bottom: 30px; }
+  /* line 585, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .post_link ul li {
+    width: 32%;
+    display: inline-block;
+    text-align: center; }
+    /* line 589, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .post_link ul li a {
+      border: 1px solid #333;
+      padding: 10px 20px;
+      text-decoration: underline; }
+
+/* line 598, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.main_common_area {
+  margin: 0 auto 30px;
+  border-top: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  background-color: #FFFFFF; }
+  /* line 605, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .main_common_area .main_common_title {
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    margin-bottom: 14px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1rem; }
+  /* line 614, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .main_common_area .main_common_inner {
+    width: 90%;
+    margin: 15px auto; }
+  /* line 619, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .main_common_area .item_list_2 li {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    line-height: 1.3; }
+    /* line 625, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .main_common_area .item_list_2 li:first-child {
+      margin-left: 0; }
+    /* line 626, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .main_common_area .item_list_2 li img {
+      width: 100%;
+      height: auto; }
+  /* line 633, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .main_common_area .item_list_3 li {
+    width: 30%;
+    min-height: 140px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    line-height: 1.3;
+    font-size: 0.7rem; }
+    /* line 641, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .main_common_area .item_list_3 li:nth-child(3n+1) {
+      margin-left: 0; }
+    /* line 642, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .main_common_area .item_list_3 li img {
+      width: 100%;
+      height: auto; }
+  /* line 650, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .main_common_area .main_bottom_ranking li {
+    margin-bottom: 10px; }
+
+/* オリジナルコンテンツページ
+------------------------------------------------------------ */
+/* line 661, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+#single_contents {
+  width: 90%;
+  margin: 20px auto; }
+
+@media screen and (min-width: 768px) {
+  /* line 667, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  #single_contents {
+    width: 700px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-sizing: border-box; }
+ }
+
+/* line 675, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.page_header {
+  text-align: center;
+  margin-bottom: 30px; }
+  /* line 678, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .page_header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px; }
+  /* line 682, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .page_header p {
+    font-size: 0.8rem; }
+
+/* side
+------------------------------------------------------------ */
+/* line 691, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.side_col .aside_area {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  background-color: red;
+  border: 1px solid #eee;
+  font-size: 0.8rem;
+  background-color: #fff; }
+  /* line 698, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .side_col .aside_area .main_title {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 14px;
+    text-align: center; }
+  /* line 704, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .side_col .aside_area .inner {
+    display: block;
+    width: 90%;
+    margin: 0 auto; }
+    /* line 708, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .side_col .aside_area .inner img {
+      max-width: 100%;
+      height: auto; }
+  /* line 713, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .side_col .aside_area select {
+    display: block;
+    width: 90%;
+    margin: 20px auto 15px;
+    padding: 10px 0; }
+  /* line 720, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .side_col .aside_area .item_list_3 li {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    line-height: 1.3; }
+    /* line 726, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .side_col .aside_area .item_list_3 li:first-child {
+      margin-left: 0; }
+    /* line 727, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .side_col .aside_area .item_list_3 li img {
+      max-width: 100%;
+      height: auto; }
+  /* line 733, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .side_col .aside_area .side_big_btn {
+    display: block;
+    margin: 15px 0 4px;
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+    text-decoration: underline; }
+    /* line 740, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .side_col .aside_area .side_big_btn:hover {
+      background-color: #333;
+      color: #fff; }
+  /* line 747, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .side_col .aside_area .pickup_article li {
+    position: relative;
+    width: 49%;
+    display: inline-block; }
+    /* line 751, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .side_col .aside_area .pickup_article li .title {
+      position: absolute;
+      bottom: 0;
+      padding: 10px;
+      line-height: 1.3; }
+      /* line 756, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      .side_col .aside_area .pickup_article li .title a {
+        color: #fff;
+        font-size: 0.7rem;
+        font-weight: normal;
+        text-shadow: 0 0 5px #000; }
+    @media screen and (min-width: 768px) {
+      .side_col .aside_area .pickup_article li {
+        width: 100%; }
+        /* line 766, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+        .side_col .aside_area .pickup_article li h2 a {
+          font-size: 0.8rem; } }
+  /* line 771, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .side_col .aside_area #recentcomments {
+    width: 90%;
+    margin: 0 auto; }
+    /* line 774, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .side_col .aside_area #recentcomments .recentcomments {
+      padding-bottom: 4px;
+      margin-bottom: 4px;
+      border-bottom: 1px dashed #eee; }
+
+@media screen and (min-width: 768px) {
+  /* line 788, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  .side_col .aside_area .item_list_3 li {
+    width: 100%;
+    display: block;
+    vertical-align: top;
+    margin-left: 0;
+    margin-bottom: 15px;
+    line-height: 1.3; }
+    /* line 795, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    .side_col .aside_area .item_list_3 li:first-child {
+      margin-left: 0; }
+ }
+
+/* pickup */
+/* line 804, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.section-pickup {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative; }
+
+/* line 810, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.section-pickup .section-title {
+  font-size: 14px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 8px; }
+
+/* line 817, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.section-pickup .section-title span {
+  border: 1px solid #333;
+  font-weight: normal;
+  color: #333;
+  padding: 8px 14px; }
+
+/* line 824, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.section-pickup .pickup-article-list {
+  margin-left: 170px; }
+
+/* line 827, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.section-pickup .pickup-article {
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 8px; }
+
+/* line 834, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.section-pickup .pickup-article a {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+/* ランキング */
+/* line 842, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li {
+  position: relative;
+  min-height: 70px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 0.8rem;
+  line-height: 1.3; }
+
+/* line 851, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li .rank {
+  padding: 1px 6px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 9px;
+  font-weight: bold;
+  background-color: #000000; }
+
+/* line 852, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(1) .rank {
+  background-color: #F9C801; }
+
+/* line 853, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(1) span:before {
+  content: "1"; }
+
+/* line 854, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(2) .rank {
+  background-color: #B8B6BB; }
+
+/* line 855, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(2) span:before {
+  content: "2"; }
+
+/* line 856, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(3) .rank {
+  background-color: #D37559; }
+
+/* line 857, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(3) span:before {
+  content: "3"; }
+
+/* line 858, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(4) span:before {
+  content: "4"; }
+
+/* line 859, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(5) span:before {
+  content: "5"; }
+
+/* line 860, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(6) span:before {
+  content: "6"; }
+
+/* line 861, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(7) span:before {
+  content: "7"; }
+
+/* line 862, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(8) span:before {
+  content: "8"; }
+
+/* line 863, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(9) span:before {
+  content: "9"; }
+
+/* line 864, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts li:nth-child(10) span:before {
+  content: "10"; }
+
+/* line 866, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+.popular_posts .views {
+  background-color: #FFCBCB;
+  color: red;
+  border-bottom: 1px solid red;
+  font-weight: bold;
+  font-size: 0.7rem; }
+
+/* footer
+------------------------------------------------------------ */
+/* line 878, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+#footer {
+  background-color: #000;
+  margin-top: 40px;
+  padding: 15px; }
+  /* line 883, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  #footer #footer_inner .btn_switch {
+    text-align: center; }
+    /* line 885, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+    #footer #footer_inner .btn_switch li {
+      display: inline-block;
+      margin-left: 10px; }
+      /* line 888, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+      #footer #footer_inner .btn_switch li a {
+        color: #fff;
+        text-decoration: underline; }
+  /* line 894, /Users/yogawa/Dropbox/MySites/03_yogawa/05_new/scss/style.scss */
+  #footer #footer_inner #copyright {
+    text-align: center;
+    color: #fff; }

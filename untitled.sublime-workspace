@@ -1,0 +1,781 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"yama",
+				"yamazaki_mayu"
+			],
+			[
+				"minami",
+				"minami_maiko2"
+			],
+			[
+				"na",
+				"nabeta_satoshi"
+			],
+			[
+				"mi",
+				"mizukami_chika"
+			],
+			[
+				"reser",
+				"reserve_url"
+			],
+			[
+				"shi",
+				"shibuya_takuma"
+			],
+			[
+				"yamamo",
+				"yamamoto_kanae"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"margni",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"echo",
+				"ncurses_echo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 1819,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 1743,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 1697,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sftp-config.json",
+			"settings":
+			{
+				"buffer_size": 1399,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: SCSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/07_new",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/07_new/js",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/07_new/scss"
+	],
+	"file_history":
+	[
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/07_new/style.css",
+		"/Users/yogawa/Downloads/responsivegridsystem/css/2cols.css",
+		"/Users/yogawa/Downloads/responsivegridsystem/css/col.css",
+		"/Users/yogawa/Downloads/responsivegridsystem/css/12cols.css",
+		"/Users/yogawa/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/yogawa/Dropbox/SublimeProject/hinatemarama.sublime-project",
+		"/Users/yogawa/Dropbox/MySites/03_yogawa/03_site/functions.php",
+		"/Users/yogawa/Dropbox/MySites/03_yogawa/03_site/content.php",
+		"/Users/yogawa/Dropbox/MySites/03_yogawa/03_site/content-single.php",
+		"/Users/yogawa/Dropbox/MySites/03_yogawa/03_site/single.php",
+		"/Users/yogawa/Dropbox/MySites/02_thecontent/05_site/functions.php",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/01_site/untitled.sublime-project",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/sidebar.php",
+		"/Users/yogawa/Dropbox/SublimeProject/earningacademy.sublime-project",
+		"/Volumes/HD/005_plateplus/037_antol/03_site/untitled.sublime-project",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/header.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/page-course.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/page-registration.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_site/site/single-hairstyle-list.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_site/site/scss/style.scss",
+		"/Volumes/HD/003_studionana/060_RAVENSARA/03_site_shop/css/common.css",
+		"/Volumes/HD/003_studionana/060_RAVENSARA/03_site_shop/sftp-config.json",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/functions.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/sftp-config.json",
+		"/Users/yogawa/Dropbox/MySites/03_yogawa/03_site/sftp-config.json",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/sftp-config.org.json",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-feature-eyelist.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_site/site/page-feature-stylist.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_site/site/index.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-feature-nailsalon.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/single-hairstyle-list.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/single-nail-list.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/single-feature-list.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-ranking.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-privacypolicy.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review-affinity.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review-isnewyork-toyama.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review-ardevivre-kanazawa.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review-ardevivre-moroe.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review-isnewyork-villa.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review-atrium.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review-aoc-morinosato.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review-aoc-kanazawa.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-review-isnewyork-okyozuka.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/index.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-makeup.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-bimajyo.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/untitled.sublime-project",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_site/site/page-creativeevent.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/taxonomy-cat-hairstyle-designer.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/taxonomy-cat-nail-designer.php",
+		"/Volumes/HD/001_素材/005 - WordPress系/001-テーマ/new-standard-wordpress-theme/new-standard/style.css",
+		"/Volumes/HD/003_studionana/060_RAVENSARA/03_site_shop/header.php",
+		"/Volumes/HD/003_studionana/060_RAVENSARA/03_site_shop/index.php",
+		"/Volumes/HD/003_studionana/060_RAVENSARA/03_site_shop/footer.php",
+		"/Volumes/HD/003_studionana/060_RAVENSARA/03_site_shop/js/script.js",
+		"/Users/yogawa/Desktop/rwd_seminar_tmp_2014/utf-8/common/css/cmn_layout.css",
+		"/Users/yogawa/Desktop/rwd_seminar_tmp_2014/utf-8/common/css/cmn_style.css",
+		"/Users/yogawa/Desktop/rwd_seminar_tmp_2014/utf-8/common/js/common.js",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/style.css",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/scss/style.scss",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-aoc-kanazawa-coupon.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-hairstyle-collection.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-aoc-kanazawa-info.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/taxonomy-cat-blog-salon.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/taxonomy-cat-hairstyle-salon.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_site/site/page-blog.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-news.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-aoc-kanazawa-staff.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-nail-collection.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-aoc-kanazawa-menu.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/header.php",
+		"/Volumes/HD/003_studionana/064_npo-machidukuri/03_site/site/page-financial-statements.php",
+		"/Volumes/HD/003_studionana/064_npo-machidukuri/03_site/package.json",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/footer.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page-shop.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_sp/page.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_site/site/untitled.sublime-project",
+		"/Users/yogawa/Dropbox/SublimeProject/sparklingdiamond.sublime-project",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/02_sp/untitled.sublime-project",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/page-company.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/single.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/index.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/page-news.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/page-contact.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/footer.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/page-blog.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/page-qa.php",
+		"/Volumes/HD/003_studionana/070_earning-academy/03_site/page-voice.php",
+		"/Volumes/HD/003_studionana/047_Hina Te Marama/03_site/side-tel.php",
+		"/Volumes/HD/003_studionana/047_Hina Te Marama/03_site/footer.php",
+		"/Volumes/HD/003_studionana/047_Hina Te Marama/03_site/sidebar-page.php",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/02_sp/header.php",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/02_sp/sftp-config.json",
+		"/Volumes/HD/005_plateplus/037_antol/04_mobile/scss/style.scss",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/01_site_dev/style.css",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/01_site_dev/scss/style.scss",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/01_site_dev/header.php",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/01_site_dev/sftp-config.json",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/02_sp/scss/style.scss",
+		"/Users/yogawa/Desktop/rwd_seminar_tmp_2014/parts/js/common.js",
+		"/Users/yogawa/Desktop/rwd_seminar_tmp_2014/parts/css/cmn_layout.css",
+		"/Users/yogawa/Desktop/rwd_seminar_tmp_2014/parts/css/cmn_style.css",
+		"/Users/yogawa/Desktop/rwd_seminar_tmp_2014/parts/css/styleguide.css",
+		"/Users/yogawa/Dropbox/MySites/03_yogawa/03_site/untitled.sublime-project",
+		"/Users/yogawa/Downloads/rwd_seminar_tmp_2014/parts/css/cmn_layout.css",
+		"/Users/yogawa/Downloads/rwd_seminar_tmp_2014/parts/css/cmn_style.css",
+		"/Users/yogawa/Downloads/rwd_seminar_tmp_2014/parts/css/styleguide.css",
+		"/Users/yogawa/Downloads/rwd_seminar_tmp_2014/parts/js/common.js",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/untitled.sublime-project",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/functions.php",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/header.php",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/sftp-config.json",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/js/dropnav.js",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/footer.php",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/style.css",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/scss/style.scss",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/page-test.php",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/new-header.php",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/index.php",
+		"/Volumes/HD/005_plateplus/023-LEON/03_site/style.org.css",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_site/site/single-feature-list-test.php",
+		"/Volumes/HD/005_plateplus/035_colorsjapan/03_site/site/style.org.css",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/01_site/page-ranking-nipple-masturbation.php",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/01_site/comments.php",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/01_site/single.php",
+		"/Users/yogawa/Dropbox/MySites/01_chikubi/01_site/single-nipple-actress.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 91.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"feature",
+			"course",
+			"feature",
+			"arrow",
+			"<?php echo home_url();?>",
+			"wpcf7",
+			"article",
+			"inner",
+			"article",
+			"feature_20150227",
+			"cat-futsal",
+			"news-single",
+			"news",
+			"bignavi",
+			"box-sha",
+			"page-blog",
+			"slider",
+			"iframe",
+			"sub-menu",
+			"left",
+			"material",
+			"page-",
+			"material",
+			"float",
+			"current",
+			"current_page_item",
+			"ranking",
+			"best",
+			"news",
+			"h2",
+			" class=\"table001\"",
+			"/th",
+			"th",
+			"table",
+			"th",
+			"h2",
+			"hotel-photo",
+			"\\n",
+			"[a-zグ]",
+			"schoo.*?",
+			"schoo.*?担当",
+			"schoo",
+			".site-bar",
+			"</td><td>",
+			"<tr><td>",
+			"</table>",
+			"<table class=\"price\">	",
+			"</h5>	",
+			"<h5>",
+			"</td></tr>",
+			"</th><td>",
+			"<tr><th>",
+			"#copy",
+			"main-navigation",
+			"333333",
+			"site-navigation",
+			"date",
+			"#title",
+			"bottom-bnr",
+			"site-bar",
+			"site-navigation",
+			"sidebar",
+			"side-category",
+			".view",
+			".views",
+			";\n",
+			"nth-child",
+			".mb15",
+			"h2",
+			"overflow",
+			"h2",
+			"side",
+			"article-info",
+			"header",
+			"page-service",
+			"stylist-data",
+			".inquiry",
+			"page-creativeevent",
+			"feature-list",
+			".photo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/yogawa/Dropbox/MySites/01_chikubi/07_new"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 379.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1737,
+								1737
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sftp-config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								628,
+								628
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 98.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
